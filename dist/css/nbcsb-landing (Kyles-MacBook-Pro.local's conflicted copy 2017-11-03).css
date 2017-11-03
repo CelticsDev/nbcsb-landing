@@ -1,0 +1,60 @@
+/*
+Error: Invalid CSS after "				height": expected ";", was ": 200px;"
+        on line 159 of src/scss/nbcsb-landing.scss
+
+154: 			height: 50%;
+155: 			width: 100%;
+156: 
+157: 			.prize-image {
+158: 				width: 200px
+159: 				height: 200px;
+160: 				background-color: #dddddd;
+161: 			}
+162: 
+163: 			.prize-button {
+164: 				width: 60%;
+
+Backtrace:
+src/scss/nbcsb-landing.scss:159
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1278:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1208:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1203:in `tok!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:804:in `block in try_declaration'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1254:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1254:in `rethrow'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:809:in `try_declaration'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:732:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:697:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:686:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:678:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:697:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:689:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:678:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:697:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:689:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:678:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:697:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:689:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:678:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:670:in `ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:696:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:689:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:41:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/engine.rb:414:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/engine.rb:290:in `render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:400:in `run'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/exec/base.rb:52:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/exec/base.rb:19:in `parse!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:23:in `load'
+/usr/local/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"				height\": expected \";\", was \": 200px;\"\A         on line 159 of src/scss/nbcsb-landing.scss\A \A 154: 			height: 50%;\A 155: 			width: 100%;\A 156: \A 157: 			.prize-image {\A 158: 				width: 200px\A 159: 				height: 200px;\A 160: 				background-color: #dddddd;\A 161: 			}\A 162: \A 163: 			.prize-button {\A 164: 				width: 60%;"; }
