@@ -2322,17 +2322,17 @@ body.not-front #content {
 ==================================*/
 .hero-block {
   width: 100%;
-  height: 400px;
+  height: 350px;
   background-color: #212121;
   background-image: url(http://io.cnn.net/nba/nba/.element/media/2.0/teamsites/celtics/media/nbcsb-authentic-fan-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 560px;
+  background-size: 800px;
   padding: 20px; }
-  .hero-block-inner {
-    height: 100%;
-    width: 100%;
-    max-width: 1000px; }
+  @media (max-width: 800px) {
+    .hero-block {
+      background-size: 95%;
+      height: 45vw; } }
 
 /*======================================
 =            OVERVIEW BLOCK            =
@@ -2342,7 +2342,7 @@ body.not-front #content {
   background: #f2f2f2; }
   .overview-block-inner {
     padding: 25px 20px;
-    max-width: 1000px;
+    max-width: 900px;
     position: relative;
     left: 50%;
     transform: translateX(-50%); }
@@ -2394,7 +2394,8 @@ body.not-front #content {
       background-size: cover;
       background-repeat: no-repeat;
       display: flex;
-      align-items: flex-end; }
+      align-items: flex-end;
+      background-color: #212121; }
       .content-block .prize .prize-top .game-info {
         width: 100%;
         padding: 5px 10px;
@@ -2403,7 +2404,8 @@ body.not-front #content {
         background-color: rgba(0, 0, 0, 0.6); }
         .content-block .prize .prize-top .game-info h3 {
           color: white;
-          margin: 0; }
+          margin: 0;
+          margin: 0 5px; }
         .content-block .prize .prize-top .game-info .date {
           display: flex;
           align-items: center; }
@@ -2452,14 +2454,13 @@ body.not-front #content {
 =            HERO BLOCK            =
 =================================-->
 <section class="hero-block">
-  <div class="hero-block-inner align-center"></div>
 </section>
 <!--====================================
 =            OVERVIEW BLOCK            =
 =====================================-->
 <section class="overview-block">
   <div class="overview-block-inner">
-    <p>Lorem ipsum dolor sit amet, vero mutat patrioque vis te, est ne facete singulis. Usu ex latine forensibus, te has delicata argumentum. Id per civibus gubergren, delenit complectitur an mel, ius ut assum option philosophia. Pri fuisset phaedrum et, pri eius inani apeirian et, ea pri nulla dissentiet instructior.</p>
+    <p>Fans! Every Friday at the TD Garden is Authentic Fan Friday presented by NBC Sports Boston. Purchase your tickets in the NBC Sports Boston balcony section and receive a co-branded Celtics and NBC Sports Boston prize! To learn more about Authentic Fan Friday, visit <a href="http://www.nbcsports.com/boston/authenticfanofthegame" target="_blank">NBCSportsBoston.com/AuthenticFanOfTheGame.</a></p>
   </div>
 </section>
 <!--===================================
@@ -2473,157 +2474,151 @@ body.not-front #content {
         <div class="prize-top" style="background-image: url(http://io.cnn.net/nba/nba/.element/media/2.0/teamsites/celtics/media/Authentic_Fan_NBCSB_42.jpg)">
           <div class="game-info">
             <div class="date half">
-              <h3> NOV. 11, 2017</h3>
+              <h3> NOV. 10, 2017</h3>
             </div>
             <div class="matchup half">
               <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/BOS.svg">
               <h3>VS</h3>
-              <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/CHA.svg"> 
+              <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/CHA.svg">
             </div>
           </div>
         </div>
         <div class="prize-bottom">
           <img class="halign-center prize-image"/>
           <h3 class=""> PRIZE IMAGE </h3>
-          <button class="halign-center prize-button">PRIZE LINK</button>
+          <button class="halign-center prize-button">BUY TICKET</button>
         </div>
       </div>
     </div>
-
     <!-- PRIZE -->
     <div class="prize-wrap thirty">
       <div class="prize">
-        <div class="prize-top" style="background-image: url(http://io.cnn.net/nba/nba/.element/media/2.0/teamsites/celtics/media/Authentic_Fan_NBCSB_11.jpg)">
+        <div class="prize-top" style="background-size: 135%; background-position: -56px 2px;background-image: url(http://io.cnn.net/nba/nba/.element/media/2.0/teamsites/celtics/media/Authentic_Fan_NBCSB_11.jpg)">
           <div class="game-info">
             <div class="date half">
-              <h3> NOV. 11, 2017</h3>
+              <h3> NOV. 24, 2017</h3>
             </div>
             <div class="matchup half">
               <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/BOS.svg">
               <h3>VS</h3>
-              <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/CHA.svg"> 
+              <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/ORL.svg">
             </div>
           </div>
         </div>
         <div class="prize-bottom">
           <img class="halign-center prize-image"/>
           <h3 class=""> PRIZE IMAGE </h3>
-          <button class="halign-center prize-button">PRIZE LINK</button>
+          <button class="halign-center prize-button">BUY TICKET</button>
         </div>
       </div>
     </div>
-
     <!-- PRIZE -->
     <div class="prize-wrap thirty">
       <div class="prize">
-        <div class="prize-top" style="background-image: url(http://io.cnn.net/nba/nba/.element/media/2.0/teamsites/celtics/media/Authentic_Fan_NBCSB_7.jpg)">
+        <div class="prize-top" style="background-size: 149%; background-position: -72px -40px; background-image: url(http://io.cnn.net/nba/nba/.element/media/2.0/teamsites/celtics/media/Authentic_Fan_NBCSB_7.jpg)">
           <div class="game-info">
             <div class="date half">
-              <h3> NOV. 11, 2017</h3>
+              <h3> DEC. 15, 2017</h3>
             </div>
             <div class="matchup half">
               <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/BOS.svg">
               <h3>VS</h3>
-              <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/CHA.svg"> 
+              <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/UTA.svg">
             </div>
           </div>
         </div>
         <div class="prize-bottom">
           <img class="halign-center prize-image"/>
           <h3 class=""> PRIZE IMAGE </h3>
-          <button class="halign-center prize-button">PRIZE LINK</button>
+          <button class="halign-center prize-button">BUY TICKET</button>
         </div>
       </div>
     </div>
-
     <!-- PRIZE -->
     <div class="prize-wrap thirty">
       <div class="prize">
-        <div class="prize-top" style="background-image: url(http://io.cnn.net/nba/nba/.element/media/2.0/teamsites/celtics/media/Authentic_Fan_NBCSB_36.jpg)">
+        <div class="prize-top" style="background-size: 149%; background-position: -80px -40px; background-image: url(http://io.cnn.net/nba/nba/.element/media/2.0/teamsites/celtics/media/Authentic_Fan_NBCSB_36.jpg)">
           <div class="game-info">
             <div class="date half">
-              <h3> NOV. 11, 2017</h3>
+              <h3> JAN. 5, 2017</h3>
             </div>
             <div class="matchup half">
               <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/BOS.svg">
               <h3>VS</h3>
-              <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/CHA.svg"> 
+              <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/MIN.svg">
             </div>
           </div>
         </div>
         <div class="prize-bottom">
           <img class="halign-center prize-image"/>
           <h3 class=""> PRIZE IMAGE </h3>
-          <button class="halign-center prize-button">PRIZE LINK</button>
+          <button class="halign-center prize-button">BUY TICKET</button>
         </div>
       </div>
     </div>
-
     <!-- PRIZE -->
     <div class="prize-wrap thirty">
       <div class="prize">
-        <div class="prize-top" style="background-image: url(http://io.cnn.net/nba/nba/.element/media/2.0/teamsites/celtics/media/Authentic_Fan_NBCSB_30.jpg)">
+        <div class="prize-top" style="background-size: 130%; background-image: url(http://io.cnn.net/nba/nba/.element/media/2.0/teamsites/celtics/media/Authentic_Fan_NBCSB_30.jpg)">
           <div class="game-info">
             <div class="date half">
-              <h3> NOV. 11, 2017</h3>
+              <h3> FEB. 2, 2017</h3>
             </div>
             <div class="matchup half">
               <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/BOS.svg">
               <h3>VS</h3>
-              <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/CHA.svg"> 
+              <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/ATL.svg">
             </div>
           </div>
         </div>
         <div class="prize-bottom">
           <img class="halign-center prize-image"/>
           <h3 class=""> PRIZE IMAGE </h3>
-          <button class="halign-center prize-button">PRIZE LINK</button>
+          <button class="halign-center prize-button">BUY TICKET</button>
         </div>
       </div>
     </div>
-
     <!-- PRIZE -->
     <div class="prize-wrap thirty">
       <div class="prize">
-        <div class="prize-top" style="background-image: url(http://io.cnn.net/nba/nba/.element/media/2.0/teamsites/celtics/media/Authentic_Fan_NBCSB_27.jpg)">
+        <div class="prize-top" style="background-size: 150%; background-position: -78px -38px; background-image: url(http://io.cnn.net/nba/nba/.element/media/2.0/teamsites/celtics/media/Authentic_Fan_NBCSB_27.jpg)">
           <div class="game-info">
             <div class="date half">
-              <h3> NOV. 11, 2017</h3>
+              <h3> FEB. 9, 2017</h3>
             </div>
             <div class="matchup half">
               <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/BOS.svg">
               <h3>VS</h3>
-              <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/CHA.svg"> 
+              <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/IND.svg">
             </div>
           </div>
         </div>
         <div class="prize-bottom">
           <img class="halign-center prize-image"/>
           <h3 class=""> PRIZE IMAGE </h3>
-          <button class="halign-center prize-button">PRIZE LINK</button>
+          <button class="halign-center prize-button">BUY TICKET</button>
         </div>
       </div>
     </div>
-
     <!-- PRIZE -->
     <div class="prize-wrap thirty">
       <div class="prize">
-        <div class="prize-top" style="background-image: url(http://io.cnn.net/nba/nba/.element/media/2.0/teamsites/celtics/media/Authentic_Fan_NBCSB_0.jpg)">
+        <div class="prize-top" style="background-size: 110%;background-position: -8px -25px; background-image: url(http://io.cnn.net/nba/nba/.element/media/2.0/teamsites/celtics/media/Authentic_Fan_NBCSB_0.jpg)">
           <div class="game-info">
             <div class="date half">
-              <h3> NOV. 11, 2017</h3>
+              <h3> APR. 6, 2017</h3>
             </div>
             <div class="matchup half">
               <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/BOS.svg">
               <h3>VS</h3>
-              <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/CHA.svg"> 
+              <img src="https://i.cdn.turner.com/nba/nba/assets/logos/teams/primary/web/CHI.svg">
             </div>
           </div>
         </div>
         <div class="prize-bottom">
           <img class="halign-center prize-image"/>
           <h3 class=""> PRIZE IMAGE </h3>
-          <button class="halign-center prize-button">PRIZE LINK</button>
+          <button class="halign-center prize-button">BUY TICKET</button>
         </div>
       </div>
     </div>
