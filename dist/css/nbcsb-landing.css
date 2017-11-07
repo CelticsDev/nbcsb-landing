@@ -2415,6 +2415,7 @@ body.not-front #content {
         height: 175px;
         margin-top: 20px;
         background-color: #dddddd;
+        border: 1px solid #ddd;
         position: relative; }
       .content-block .prize .prize-bottom .prize-button {
         width: 60%;
