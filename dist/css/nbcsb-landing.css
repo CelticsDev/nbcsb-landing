@@ -2307,7 +2307,8 @@ body.not-front #content {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 800px;
-  padding: 20px; }
+  padding: 20px;
+  box-sizing: border-box; }
   @media (max-width: 800px) {
     .hero-block {
       background-size: 95%;
@@ -2329,6 +2330,13 @@ body.not-front #content {
       content: "";
       display: table;
       clear: both; }
+
+/*==========================================
+=            INSTRUCTIONS BLOCK            =
+==========================================*/
+.instructions-block img {
+  max-width: 860px;
+  margin-top: 15px; }
 
 /*=====================================
 =            CONTENT BLOCK            =
@@ -2428,3 +2436,9 @@ body.not-front #content {
         border-radius: 3px; }
         .content-block .prize .prize-bottom .prize-button:hover {
           background-color: #00b664; }
+      .content-block .prize .prize-bottom p {
+        text-align: center;
+        font-color: #e7e7e7;
+        font-size: 12px;
+        top: 28px;
+        max-width: 280px; }
