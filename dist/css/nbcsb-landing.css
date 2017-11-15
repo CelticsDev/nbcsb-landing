@@ -2296,6 +2296,9 @@ body.not-front #content {
   background-image: none;
   background-color: white; }
 
+strong {
+  display: inline; }
+
 /*==================================
 =            HERO BLOCK            =
 ==================================*/
@@ -2323,6 +2326,7 @@ body.not-front #content {
   .overview-block-inner {
     padding: 25px 20px;
     max-width: 900px;
+    text-align: center;
     position: relative;
     left: 50%;
     transform: translateX(-50%); }
@@ -2337,6 +2341,18 @@ body.not-front #content {
 .instructions-block img {
   max-width: 860px;
   margin-top: 15px; }
+
+.prize-button {
+  width: 100%;
+  height: 50px;
+  background-color: #008348;
+  color: white;
+  margin: 20px 0px;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px; }
+  .prize-button:hover {
+    background-color: #00b664; }
 
 /*=====================================
 =            CONTENT BLOCK            =
@@ -2361,9 +2377,19 @@ body.not-front #content {
     justify-content: center; }
   .content-block .prize-wrap {
     padding: 20px;
-    height: 575px;
+    height: 500px;
     width: 375px;
-    float: left; }
+    float: left;
+    position: relative; }
+  .content-block .sold-out {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.3em;
+    font-weight: 800;
+    top: 66%;
+    display: none;
+    z-index: 10; }
   .content-block .prize {
     background: #fafafa;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -2373,7 +2399,7 @@ body.not-front #content {
     border-radius: 5px; }
     .content-block .prize .prize-top {
       position: relative;
-      height: 45%;
+      height: 50%;
       width: 100%;
       border-top-right-radius: 5px;
       border-top-left-radius: 5px;
@@ -2425,17 +2451,6 @@ body.not-front #content {
         background-color: #dddddd;
         border: 1px solid #ddd;
         position: relative; }
-      .content-block .prize .prize-bottom .prize-button {
-        width: 60%;
-        height: 50px;
-        background-color: #008348;
-        color: white;
-        margin: 20px 0px;
-        font-size: 20px;
-        border: none;
-        border-radius: 3px; }
-        .content-block .prize .prize-bottom .prize-button:hover {
-          background-color: #00b664; }
       .content-block .prize .prize-bottom p {
         text-align: center;
         font-color: #e7e7e7;
